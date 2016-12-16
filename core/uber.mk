@@ -102,7 +102,10 @@ DISABLE_POLLY_arm64 := \
 	libmedia_jni \
 	libRSCpuRef \
 	libscrypt_static \
-	libsvoxpico
+	libsvoxpico \
+	libelf \
+	libelf_intermediates \
+	libelf_static
 
 # Set DISABLE_POLLY based on arch
 LOCAL_DISABLE_POLLY := \
