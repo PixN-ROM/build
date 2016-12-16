@@ -130,7 +130,10 @@ DISABLE_POLLY_arm64 := \
 	$(DISABLE_POLLY_arm) \
 	libaudioutils \
 	libscrypt_static \
-	libsvoxpico
+	libsvoxpico \
+	libelf \
+	libelf_intermediates \
+	libelf_static
 
 # Set DISABLE_POLLY based on arch
 LOCAL_DISABLE_POLLY := \
