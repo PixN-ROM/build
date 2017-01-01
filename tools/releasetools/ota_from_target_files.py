@@ -758,7 +758,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
       script.Unmount("/system")
 
   script.Print(" ")
-  script.Print("Flashing Flash Kernel...")
+  script.Print("Flashing PixN Kernel...")
   script.ShowProgress(0.05, 5)
   script.WriteRawImage("/boot", "boot.img")
 
